@@ -1,6 +1,6 @@
 {
   "name": "node-sw10",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Library to get data from XinaBox SW10(LM75B).",
   "main": "SW10.js",
   "scripts": {
