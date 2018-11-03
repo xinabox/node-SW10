@@ -1,4 +1,4 @@
-# node-SW10
+# node-sw10
 [<img src="https://img.shields.io/badge/Node.js-4.x%20through%207.x-brightgreen.svg">](https://nodejs.org) 
 
 [<img src="https://cdn.shopify.com/s/files/1/1734/1465/products/SW10_V1.0.0_Front_1800x1800.JPG?v=1540629404" width="300" align="right">](https://xinabox.cc/products/sw10)
