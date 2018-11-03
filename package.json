@@ -1,0 +1,32 @@
+{
+  "name": "node-sw10",
+  "version": "1.0.2",
+  "description": "Library to get data from XinaBox SW10(LM75B).",
+  "main": "SW10.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xinabox/node-SW10"
+  },
+  "keywords": [
+    "XinaBox",
+    "sw10",
+    "lmb75",
+    "Raspberry",
+    "Pi",
+    "Beaglebone",
+    "Sensor",
+    "xChip"
+  ],
+  "dependencies": {
+    "i2c-bus": "^1.2.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  },
+  "author": "Brendan van Breda",
+  "license": "MIT"
+}
