@@ -1,4 +1,4 @@
-const SW10 = require('node-SW10');
+const SW10 = require('node-sw10');
 
 const options = {
   i2cBusNo   : 1, // defaults to 1
