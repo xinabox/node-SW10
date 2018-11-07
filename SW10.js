@@ -18,17 +18,17 @@ class SW10 {
     this.LM75B_REG_THYST = 0x02;
   }
 
-  init() {
+  init(){
+    return new Promise((resolve, reject) => {
+      return resolve(0);
+    });
   }
 
   readSensorData() {
     return new Promise((resolve, reject) => {
-      if(!this.cal) {
-        return reject('You must first call sw10.init()');
-      }
 
       // Grab temperature, humidity, and pressure in a single read
-      //
+
       this.i2cBus.readI2cBlock(this.i2cAddress, this.LM75B_REG_TEMP, 2, new Buffer(2), (err, bytesRead, buffer) => {
         if(err) {
           return reject(err);
